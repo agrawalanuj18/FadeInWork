@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+.starting {
+  padding: 2% 10% 4%;
+  color: white;
+}
+
+.heading {
+  /* font-family: "Montserrat", sans-serif; */
+  position: absolute;
+  width: 876px;
+  height: 214px;
+  left: 146px;
+  top: 133px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.img1 {
+  /* position: absolute; */
+  position: relative;
+  width: 730px;
+  height: 411px;
+  left: -40px;
+  top: 190px;
+  z-index: -1;
+}
+.img2 {
+  /* position: absolute; */
+  position: relative;
+  width: 327px;
+  height: 462px;
+  left: 197px;
+  /* top: 514px; */
+}
+.img3 {
+  /* position: absolute; */
+  position: relative;
+  width: 484px;
+  height: 242px;
+  left: 300px;
+  /* top: 745px; */
+  top: 50px;
+}
+.img4 {
+  /* position: absolute; */
+  position: relative;
+  width: 886px;
+  height: 371px;
+  left: 399px;
+  /* top: 1024px; */
+  top: 50px;
+}
+.img5 {
+  /* position: absolute;
+     */
+  position: relative;
+  width: 419px;
+  height: 280px;
+  /* top: 1414px; */
+  top: 70px;
+  left: 144px;
+}
+
+.rotate {
+  position: absolute;
+  width: 48px;
+  height: 22px;
+  left: 146px;
+  top: 726px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  transform: rotate(-90deg);
+}
+.button1 {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 126px;
+  height: 46px;
+  /* left: 1103px; */
+  /* top: 31px; */
+
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+}
+.button2 {
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.footer{
+  margin-top: 180px;
+}

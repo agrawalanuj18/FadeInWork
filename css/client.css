@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    /* margin-left: 147px; */
+  }
+
+.card{
+    width: 177px;
+height: 96px;
+background: rgba(217, 217, 217, 0.05);
+/* margin-left: 50px; */
+}
+
+.headclient{
+    color: #FFD75A;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: uppercase;
+width: 86px;
+height: 29px;
+margin-left: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+.cardMargin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer{
+    margin-top: 180px;
+  }

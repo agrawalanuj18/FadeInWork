@@ -1,0 +1,99 @@
+.main {
+  position: relative;
+  width: 876px;
+  height: 98px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 97px;
+  text-transform: uppercase;
+}
+
+span {
+  color: #ffd75a;
+}
+.para {
+  position: relative;
+  left: 30rem;
+  width: 40rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.aboutimg1 {
+  position: relative;
+  left: 108px;
+  width: 1040px;
+  height: 501px;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 122px;
+}
+
+.column {
+  flex: 50%;
+}
+.founderhead {
+  width: 410px;
+  height: 167px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.founderimg:nth-of-type(odd) {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.para2 {
+  width: 511px;
+  height: 166px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.foundername {
+  position: relative;
+  width: 173px;
+  height: 29px;
+  left: 265px;
+  top: -56px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
